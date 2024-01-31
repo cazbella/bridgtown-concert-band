@@ -1,4 +1,50 @@
-/* src/styles/index.css */
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+body {
+  margin-top: 1.5rem;
+  padding: 20px;
+}
+
+.btn-primary {
+  border-color: black;
+}
+
+.btn-primary.btn-lg {
+  color: white;
+  background: rgb(136, 92, 177);
+}
+
+.btn-primary:hover {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+
+.dropdown-menu {
+  background-color: transparent !important;
+  background-size: cover;
+  border: none;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+  color: #16181b;
+  text-decoration: none;
+  background: black;
+}
+
+.icon:hover {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.skills {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  img {
+    float: none;
+    width: 100%;
+    margin: 0;
+  }
+}
+
+
+

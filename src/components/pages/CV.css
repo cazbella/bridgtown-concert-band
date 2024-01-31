@@ -1,0 +1,34 @@
+.cv-container {
+  text-align: center;
+}
+
+.cv-images {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  background-color: rgb(160, 137, 182);
+  border-radius: 0.5rem;
+}
+
+.cv-images img {
+  border-radius: 10px;
+  max-width: 92%;
+  margin: 10px;
+}
+
+
+.cv-link {
+  color: black;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+
+@media (max-width: 768px) {
+  .cv-images {
+    margin-right: 20px;
+  }
+}
+
