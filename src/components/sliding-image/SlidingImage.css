@@ -1,0 +1,42 @@
+/* SlidingImage.css */
+.slide-container {
+    position: fixed;
+    bottom: 0; /* Start at the bottom */
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    animation: slideCover 4s ease-in-out forwards; /* Adjust the animation duration and easing as needed */
+    margin: 10px;
+}
+
+.sliding-image {
+    width: 100%;
+    height: auto;
+}
+
+@keyframes slideCover {
+    0% {
+        transform: translateY(100%); /* Start from the bottom */
+    }
+    100% {
+        transform: translateY(-100%); /* Slide the image up to cover the content */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    .slide-container {
+        height: 50vh; /* Adjust height for smaller screens */
+    }
+
+    .sliding-image {
+        animation: slideAcrossMobile 3s ease-in-out forwards; /* Mobile-specific animation */
+    }
+
+    @keyframes slideAcrossMobile {
+        to {
+            left: 200%; /* Adjust the off-screen distance for mobile */
+        }
+    }
+}
