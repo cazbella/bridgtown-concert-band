@@ -7,8 +7,15 @@ function Navbar() {
     <div className="container-fluid mb-4">
       <nav className="navbar navbar-expand-lg customNav">
         <div className="container-fluid">
-          <Link className="navbar-brand" to="/">
-            Caroline Lane
+          <Link to="/">
+            <img
+              src="src/assets/images/logo.jpeg"
+              alt="BCSB Logo"
+              className="navbar-brand"
+              style={{ maxHeight: '70px', borderRadiun: 10 }} // Adjust the value as needed
+            />
+            <br>
+            </br>
           </Link>
           <button
             className="navbar-toggler"

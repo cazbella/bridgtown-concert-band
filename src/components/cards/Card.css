@@ -21,7 +21,7 @@
 
   .bg-body-tertiary,
 .card-body {
-  background-color: rgb(160, 137, 182);
+  background: linear-gradient(to right, #d4c378, #ccae00) !important;
 }
   
 .card-body a.btn {

@@ -11,9 +11,8 @@
 }
 
 
-
 .customNav {
-  background-color: rgb(160, 137, 182) !important;
+  background: linear-gradient(to right, #d4c378, #ccae00) !important;
   border-radius: 0.5rem;
 }
 

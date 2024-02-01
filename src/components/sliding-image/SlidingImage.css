@@ -32,6 +32,7 @@
 
     .sliding-image {
         animation: slideAcrossMobile 3s ease-in-out forwards; /* Mobile-specific animation */
+        border-radius: 5rem;
     }
 
     @keyframes slideAcrossMobile {
