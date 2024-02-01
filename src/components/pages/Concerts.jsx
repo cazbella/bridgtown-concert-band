@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../layout/Header";
 
-function Skills() {
+function Concerts() {
   const frontendSkills = [
     "HTML",
     "CSS",
@@ -66,4 +66,4 @@ function Skills() {
   );
 }
 
-export default Skills;
+export default Concerts;

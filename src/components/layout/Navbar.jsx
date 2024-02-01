@@ -9,7 +9,7 @@ function Navbar() {
         <div className="container-fluid">
           <Link to="/">
             <img
-              src="src/assets/images/logo.jpeg"
+              src="src/assets/images/logo.png"
               alt="BCSB Logo"
               className="navbar-brand"
               style={{ maxHeight: '70px', borderRadiun: 10 }} // Adjust the value as needed
@@ -36,8 +36,8 @@ function Navbar() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" to="/Skills">
-                  Skills
+                <Link className="nav-link active" aria-current="page" to="/">
+                  Concerts
                 </Link>
               </li>
               <li className="nav-item">

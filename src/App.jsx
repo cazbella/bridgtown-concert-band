@@ -11,14 +11,14 @@ import Projects from "./components/pages/Projects";
 import Contact from "./components/pages/Contact";
 import CV from "./components/pages/CV";
 import Home from "./components/pages/Home";
-import Skills from "./components/pages/Skills";
+import Concerts from "./components/pages/Concerts";
 import SlidingImage from "./components/sliding-image/SlidingImage"; // Import the new component
 
 function App() {
   return (
     <Router>
       <div className="flex-container">
-        <SlidingImage /> {/* Add the SlidingImage component here */}
+       { <SlidingImage /> /* Add the SlidingImage component here */}
         <div className="container">
           <Navbar />
           {/* Routes */}
@@ -26,7 +26,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/projects" element={<Projects work={Work} />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/skills" element={<Skills />} />
+            <Route path="/concerts" element={<Concerts />} />
             <Route path="/CV" element={<CV />} />
           </Routes>
         </div>

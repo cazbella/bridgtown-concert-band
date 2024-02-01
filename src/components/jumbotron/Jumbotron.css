@@ -1,10 +1,10 @@
 .jumbotron {
   background: linear-gradient(to right, #ffd700, #ccae00) !important;
   border-radius: 0.5rem;
+  /* margin-bottom: 20px; */
   }
-}
 
-.col-lg-9 {
+/* .col-lg-9 {
   display: flex;
   flex-direction: column;
   width: 75%;
@@ -12,11 +12,10 @@
   padding-left: 25px !important;
   margin-top: 20px;
   text-align: center;
-}
+} */
 
 .bs-border-radius-lg {
   border-radius: 10px;
-  margin-bottom: 10px;
 }
 
 
