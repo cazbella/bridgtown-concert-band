@@ -5,8 +5,8 @@ import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 import 'bootstrap/dist/css/bootstrap.min.css';
 import * as bootstrap from 'bootstrap';
 import '@fortawesome/fontawesome-free/css/all.min.css';
-import Navbar from "./components/Layout/Navbar";
-import Footer from "./components/Layout/Footer";
+import Navbar from "./components/layout/Navbar";
+import Footer from "./components/layout/Footer";
 import Media from "./components/pages/Media";
 import Joinus from "./components/pages/Joinus";
 import Home from "./components/pages/Home";
