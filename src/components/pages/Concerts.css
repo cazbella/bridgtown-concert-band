@@ -1,0 +1,21 @@
+.card-title {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.poster {
+    background: linear-gradient(to right, #ca970a,  #e5da9a, #ca970a);
+    border: solid black 0.5px;
+}
+
+.card-img-top {
+    border: solid black 0.5px;
+    max-width: 50%;
+    margin: 0 auto; /* Add this line to center the image */
+    display: block; /* Add this line to center the image */
+}
+
+.poster-box {
+    margin-bottom: 20px;
+}

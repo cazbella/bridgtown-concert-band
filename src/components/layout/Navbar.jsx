@@ -46,13 +46,8 @@ function Navbar() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/CV">
-                  CV
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/Contact">
-                  Contact Me
+                <Link className="nav-link" to="/Join-us">
+                  Join Us
                 </Link>
               </li>
               <li className="nav-item dropdown">
@@ -63,7 +58,7 @@ function Navbar() {
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Quick Contact
+                  Contact
                 </Link>
                 <ul className="dropdown-menu">
                   <li>

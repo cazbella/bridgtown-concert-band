@@ -10,7 +10,7 @@
 
 .footer {
   background: linear-gradient(to right, #ca970a, #e5da9a, #ca970a) !important;
-  border: none;
+  border: black solid 0.1px !important;
 }
 
 .card {

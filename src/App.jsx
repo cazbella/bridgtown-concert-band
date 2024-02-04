@@ -5,11 +5,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import * as bootstrap from 'bootstrap';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import Navbar from "./components/Layout/Navbar";
-import Work from "./Work.json";
 import Footer from "./components/Layout/Footer";
 import Media from "./components/pages/Media";
-import Contact from "./components/pages/Contact";
-import CV from "./components/pages/CV";
+import Joinus from "./components/pages/Joinus";
 import Home from "./components/pages/Home";
 import Concerts from "./components/pages/Concerts";
 import SlidingImage from "./components/sliding-image/SlidingImage"; // Import the new component
@@ -25,9 +23,8 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/media" element={<Media />} />
-            <Route path="/contact" element={<Contact />} />
             <Route path="/concerts" element={<Concerts />} />
-            <Route path="/CV" element={<CV />} />
+            <Route path="/Join-Us" element={<Joinus />} />
           </Routes>
         </div>
         <Footer />
