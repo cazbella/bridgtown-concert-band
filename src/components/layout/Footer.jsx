@@ -16,7 +16,7 @@ function Footer() {
       <div className="container mb-4">
       <div className="card text-center footer">
         <div className="card-body">
-          <h5 className="card-title">Find us on Social Media</h5>
+          <h5 className="card-title">Find us on...</h5>
           <a href="https://www.facebook.com/BridgtownConcertShowBand/" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faFacebook} className="icon" style={iconStyle} />
           </a>

@@ -39,12 +39,12 @@ function Media() {
                 <img src="src/assets/images/live/ghost-band.jpeg" className="d-block w-100" alt="Slide 9" />
               </div>
               {/* Video slides */}
-              <div className="carousel-item">
+              {/* <div className="carousel-item">
                 <video className="d-block w-100" controls>
                   <source src="path/to/your/video1.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
-              </div>
+              </div> */}
               <div className="carousel-item">
                 <div dangerouslySetInnerHTML={{ __html: '<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2FBridgtownConcertShowBand%2Fvideos%2F312707531433249%2F&show_text=false&width=269&t=0" width="269" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>' }} />
               </div>

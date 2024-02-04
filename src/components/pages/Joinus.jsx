@@ -1,22 +1,46 @@
-import React from "react";
+import React, { useState } from "react";
+import { Modal } from "react-bootstrap";
 import Header from "../layout/Header";
 
-function CV() {
+function joinus() {
+  const [showModal, setShowModal] = useState(false);
+
+  const handleModalShow = () => setShowModal(true);
+  const handleModalClose = () => setShowModal(false);
+
   return (
     <div>
-      <Header title="Join Us" />
-      <div className="container-fluid mb-4" id="cv-container">
-        <p>Please find a link below to my CV in PDF format and images of my CV.</p>
-        <div className="cv-images mx-auto">
-          <a href="" target="_blank" rel="noopener noreferrer" className="cv-link">
-            Open CV (PDF)
-          </a>
-          <img src="" alt="CV Image 1" />
-          <img src="" alt="CV Image 2" />
+      {/* <Header title="Join Us" /> */}
+      <div className="container-fluid poster-box">
+        <div className="row">
+          <div className="col-12">
+            <div className="card poster">
+              <div className="card-body">
+                <h5 className="card-title">Come and Join us!</h5>
+                <img
+                  src="src/assets/images/recruitment.jpeg"
+                  className="card-img-top clickable-image"
+                  alt="Concert Image"
+                  onClick={handleModalShow}
+                />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+
+      {/* Modal */}
+      <Modal show={showModal} onHide={handleModalClose} centered>
+        <Modal.Body>
+          <img
+            src="src/assets/images/recruitment.jpeg"
+            className="img-fluid"
+            alt="Concert Image"
+          />
+        </Modal.Body>
+      </Modal>
     </div>
   );
 }
 
-export default CV;
+export default joinus;
