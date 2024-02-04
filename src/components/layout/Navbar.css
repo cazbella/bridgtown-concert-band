@@ -33,3 +33,8 @@
 .navbar-nav .nav-link:focus {
   color: black;
 }
+
+.nav-mail {
+    background: linear-gradient(to right, #e3280b, #f1dbdb, #e3280b) !important;
+  color: black;
+}

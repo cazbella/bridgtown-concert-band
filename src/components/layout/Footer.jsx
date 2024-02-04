@@ -1,15 +1,32 @@
 import React from 'react';
 import "./Footer.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebook, faLinkedin, faXTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope, faFilePdf } from "@fortawesome/free-solid-svg-icons";
 
 function Footer() {
+  const iconStyle = {
+    fontSize: '2rem',
+    margin: '0 10px',
+    color: 'black', 
+  };
+
   return (
     <div className="container mb-4">
-    <div className="container">
-      <div className="card text-center">
+      <div className="container mb-4">
+      <div className="card text-center footer">
         <div className="card-body">
-          <h5 className="card-title">My GitHub repository</h5>
-          <p className="card-text">If you would like to see my project repositories or my other projects on GitHub, please click the link below.</p>
-          <a href="https://github.com/cazbella" className="btn btn-primary" target="_blank" rel="noopener noreferrer">Find me on GitHub</a>
+          <h5 className="card-title">Find us on Social Media</h5>
+          <a href="https://www.facebook.com/BridgtownConcertShowBand/" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faFacebook} className="icon" style={iconStyle} />
+          </a>
+          <a href="https://twitter.com/bridgtown_band?lang=en" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faXTwitter} className="icon" style={iconStyle} />
+          </a>
+          <a href="mailto: bridgtownconcertshowband@gmail.com" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faEnvelope} className="icon" style={iconStyle} />
+          </a>
+   
         </div>
       </div>
     </div>

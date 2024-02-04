@@ -1,21 +1,31 @@
 .flex-container {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh; /* container takes the full height the viewport */
-    
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 
-    
-  }
-  
-  .container {
-    flex: 1; /* container grows and takes up space and so fixes footer to the bottom. */
-    
-  }
-  
-  .footer {
-    background: linear-gradient(to right, #d4c378, #ccae00) !important;
-  
-    
-  }
-  
-  
+.container {
+  flex: 1;
+}
+
+.footer {
+  background: linear-gradient(to right, #ca970a, #e5da9a, #ca970a) !important;
+  border: none;
+}
+
+.card {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: none;
+}
+
+.col-lg-6 {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.card {
+  overflow: hidden;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}

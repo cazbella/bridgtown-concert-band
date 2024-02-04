@@ -10,7 +10,8 @@
 }
 
 body {
-  background: linear-gradient(to right, #e3744f, #e5da9a) !important;
+  background: linear-gradient(to right, #e3280b, #f1dbdb, #e3280b) !important;
+
   margin-top: 1.5rem;
   font-family: 'lucinda';
   box-sizing: border-box; 
@@ -20,10 +21,10 @@ body {
   border-color: black;
 }
 
-.btn-primary.btn-lg {
+/* .btn-primary.btn-lg {
   color: white;
   background: rgb(136, 92, 177);
-}
+} */
 
 .btn-primary:hover {
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);

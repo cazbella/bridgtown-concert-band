@@ -7,7 +7,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 import Navbar from "./components/Layout/Navbar";
 import Work from "./Work.json";
 import Footer from "./components/Layout/Footer";
-import Projects from "./components/pages/Projects";
+import Media from "./components/pages/Media";
 import Contact from "./components/pages/Contact";
 import CV from "./components/pages/CV";
 import Home from "./components/pages/Home";
@@ -24,7 +24,7 @@ function App() {
           {/* Routes */}
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/projects" element={<Projects work={Work} />} />
+            <Route path="/media" element={<Media />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/concerts" element={<Concerts />} />
             <Route path="/CV" element={<CV />} />

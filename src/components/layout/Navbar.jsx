@@ -36,13 +36,13 @@ function Navbar() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" to="/">
+                <Link className="nav-link active" aria-current="page" to="/concerts">
                   Concerts
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/projects">
-                  Projects
+                <Link className="nav-link" to="/media">
+                  Media
                 </Link>
               </li>
               <li className="nav-item">
@@ -94,8 +94,8 @@ function Navbar() {
             </ul>
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <Link className="btn btn-primary btn-lg navCTA" to="mailto:cazbella@myyahoo.com" role="button">
-                  Email Me
+                <Link className="btn btn-primary btn-lg nav-mail" to="mailto:bridgtownconcertshowband@gmail.com" role="button">
+                  Contact
                 </Link>
               </li>
             </ul>

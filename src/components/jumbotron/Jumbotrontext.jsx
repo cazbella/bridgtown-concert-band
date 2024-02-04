@@ -14,7 +14,7 @@ Our talented musicians are dedicated to creating a vibrant and engaging atmosphe
 At Bridgtown Concert Showband, we take pride in our commitment to musical artistry and community involvement. Our goal is to share the joy of live music, fostering a sense of unity and connection among our audience members. Join us on a musical journey that transcends time, as we celebrate the power of music to bring people together. <br /><br />
 
 Thank you for being a part of our musical community. We look forward to sharing our passion and talent with you at our upcoming performances. Stay tuned for exciting concerts, events, and musical adventures!</p>
-          <a className="btn btn-primary btn-lg" href="mailto:carolinelane@live.co.uk" role="button">Contact me</a>
+          <a className="btn btn-primary btn-lg text-button" href="mailto:carolinelane@live.co.uk" role="button">Send E-mail</a>
         </div>
       </div>
     </div>

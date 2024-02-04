@@ -1,0 +1,19 @@
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Use min-height instead of height */
+  }
+  
+  .carousel-inner {
+    border-radius: 10px;
+    margin-top: 25px;
+    width: 50%;
+    max-width: 100%; /* Set max-width to 100% to prevent overflow */
+    overflow: hidden; /* Add overflow to prevent images from overflowing */
+    text-align: center; /* Center images horizontally */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
