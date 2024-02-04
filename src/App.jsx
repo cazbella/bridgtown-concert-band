@@ -17,7 +17,7 @@ import SlidingImage from "./components/sliding-image/SlidingImage"; // Import th
 
 function App() {
   return (
-    <Router basename="/bridgtown-concert-band">
+    <Router>
       <div className="flex-container">
         <div className="container">
           <Navbar />
