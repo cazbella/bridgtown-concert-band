@@ -5,9 +5,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run predeploy",
-    "dev": "vite",
-    "build": "vite deploy",
+    "predeploy": "npm run deploy",
+    "deploy": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
