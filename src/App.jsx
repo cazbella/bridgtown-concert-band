@@ -14,11 +14,11 @@ import Home from "./components/pages/Home";
 import Concerts from "./components/pages/Concerts";
 import SlidingImage from "./components/sliding-image/SlidingImage"; // Import the new component
 
+
 function App() {
   return (
-    <Router>
+    <Router basename="/bridgtown-concert-band">
       <div className="flex-container">
-       { <SlidingImage /> /* Add the SlidingImage component here */}
         <div className="container">
           <Navbar />
           {/* Routes */}

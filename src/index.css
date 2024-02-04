@@ -1,6 +1,19 @@
+.flex-container {
+  width: 100%;
+  min-height: 100vh;
+}
+
+@media (min-width: 1212px) {
+  .flex-container {
+    width: 100%;
+  }
+}
+
 body {
+  background: linear-gradient(to right, #e3744f, #e5da9a) !important;
   margin-top: 1.5rem;
-  padding: 20px;
+  font-family: 'lucinda';
+  box-sizing: border-box; 
 }
 
 .btn-primary {
@@ -15,7 +28,6 @@ body {
 .btn-primary:hover {
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
-
 
 .dropdown-menu {
   background-color: transparent !important;
@@ -33,18 +45,3 @@ body {
 .icon:hover {
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
-
-.skills {
-  margin-bottom: 20px;
-}
-
-@media (max-width: 768px) {
-  img {
-    float: none;
-    width: 100%;
-    margin: 0;
-  }
-}
-
-
-

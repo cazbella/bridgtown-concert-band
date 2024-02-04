@@ -1,0 +1,25 @@
+.jumbotron-text {
+    justify-content: center;
+}
+
+#h1 {
+    text-shadow: 2px 2px #ccae00;
+    font-size: 4vw;  /* Adjust the value based on your preference */
+  }
+  
+  .body {
+    font-size: 2vw !important;  /* Adjust the value based on your preference */
+  }
+  
+  /* Media queries for adjusting font sizes at specific breakpoints
+  @media (max-width: 768px) {
+    #h1 {
+      font-size: 7vw;
+    }
+  
+    .body {
+      font-size: 4vw !important;
+    }
+  }
+  
+  /* Add more media queries as needed for different screen sizes */

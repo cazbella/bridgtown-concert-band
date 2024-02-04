@@ -14,7 +14,9 @@
 .customNav {
   background: linear-gradient(to right, #ca970a, #e5da9a) !important;
   border-radius: 0.5rem;
+  font-size: 25px;
 }
+
 
 
 .btn {

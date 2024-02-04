@@ -3,7 +3,7 @@ import "./Footer.css";
 
 function Footer() {
   return (
-    <div className="container">
+    <div className="container mb-4">
     <div className="container">
       <div className="card text-center">
         <div className="card-body">
