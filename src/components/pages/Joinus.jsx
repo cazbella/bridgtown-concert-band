@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Modal } from "react-bootstrap";
-import Header from "../layout/Header";
+import joinUsPoster from "../../assets/images/recruitment.jpeg";
 
 function joinus() {
   const [showModal, setShowModal] = useState(false);
@@ -18,7 +18,7 @@ function joinus() {
               <div className="card-body">
                 <h5 className="card-title">Come and Join us!</h5>
                 <img
-                  src="src/assets/images/recruitment.jpeg"
+                  src= {joinUsPoster}
                   className="card-img-top clickable-image"
                   alt="Concert Image"
                   onClick={handleModalShow}

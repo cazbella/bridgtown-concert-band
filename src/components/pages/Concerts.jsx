@@ -1,6 +1,7 @@
 import React from "react";
 // import Header from "../layout/Header";
 import "./Concerts.css";
+import showPoster from "../../assets/images/30-years-show-poster.jpeg"
 
 function Concerts() {
   return (
@@ -13,7 +14,7 @@ function Concerts() {
               <div className="card-body">
                 <h5 className="card-title">30th Anniversary Concert</h5>
                 <img
-                  src="src/assets/images/30-years-show-poster.jpeg"
+                  src= {showPoster}
                   className="card-img-top"
                   alt="Concert Image"
                 />

@@ -1,6 +1,15 @@
 import React from 'react';
 // import Header from "../layout/Header";
 import "./Media.css";
+import fullBand from "../../assets/images/live/band-hednesford-full.jpeg";
+import logo from "../../assets/images/logo.jpeg"
+import flutes from "../../assets/images/live/flutes.jpeg"
+import shaun from "../../assets/images/live/shaun.jpeg";
+import tubaChris from "../../assets/images/live/tuba.jpeg";
+import sax from "../../assets/images/live/sax.jpeg";
+import bass from "../../assets/images/live/bass.jpeg";
+import flutes2 from "../../assets/images/live/flutes2.jpeg";
+import ghostBand from "../../assets/images/live/ghost-band.jpeg";
 
 function Media() {
   return (
@@ -11,32 +20,33 @@ function Media() {
           <div id="carousel" className="carousel slide" data-bs-ride="carousel">
             <div className="carousel-inner">
               <div className="carousel-item active">
-                <img src="src/assets/images/logo.jpeg" className="d-block w-100" alt="Slide 1" />
+                <img src= {logo} className="d-block w-100" alt="Slide 1" />
               </div>
               <div className="carousel-item">
-                <img src="src/assets/images/live/band-hednesford-full.jpeg" className="d-block w-100" alt="Slide 2" />
+                <img src= {fullBand} className="d-block w-100" alt="Slide 2" />
               </div>
               <div className="carousel-item">
-                <img src="src/assets/images/live/flutes.jpeg" className="d-block w-100" alt="Slide 3" />
+                <img src= {flutes} className="d-block w-100" alt="Slide 3" />
               </div>
               {/* Additional pictures */}
               <div className="carousel-item">
-                <img src="src/assets/images/live/shaun.jpeg" className="d-block w-100" alt="Slide 4" />
+                <img src= {shaun} className="d-block w-100" alt="Slide 4" />
               </div>
               <div className="carousel-item">
-                <img src="src/assets/images/live/tuba.jpeg" className="d-block w-100" alt="Slide 5" />
+                <img src= {tubaChris} className="d-block w-100" alt="Slide 5" />
               </div>
               <div className="carousel-item">
-                <img src="src/assets/images/live/sax.jpeg" className="d-block w-100" alt="Slide 6" />
+                <img src= {sax} className="d-block w-100" alt="Slide 6" />
               </div>
               <div className="carousel-item">
-                <img src="src/assets/images/live/bass.jpeg" className="d-block w-100" alt="Slide 7" />
+                <img src= {bass} className="d-block w-100" alt="Slide 7" />
               </div>
               <div className="carousel-item">
-                <img src="src/assets/images/live/flutes2.jpeg" className="d-block w-100" alt="Slide 8" />
+                <img src= {flutes2} 
+                className="d-block w-100" alt="Slide 8" />
               </div>
               <div className="carousel-item">
-                <img src="src/assets/images/live/ghost-band.jpeg" className="d-block w-100" alt="Slide 9" />
+                <img src= {ghostBand} className="d-block w-100" alt="Slide 9" />
               </div>
               {/* Video slides */}
               {/* <div className="carousel-item">

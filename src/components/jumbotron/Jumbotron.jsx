@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Jumbotron.css";
+import banner from "../../assets/images/30-years-banner.jpeg";
 
 function Jumbotron() {
   return (
@@ -8,7 +9,7 @@ function Jumbotron() {
         <div className="">
           {/* Add your banner content here */}
           <img
-            src="src/assets/images/30-years-banner.jpeg"
+            src= {banner}
             alt="Banner Image"
             className="img-fluid jumbotron-image"
           />

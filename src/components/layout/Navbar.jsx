@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import "./Navbar.css";
+import BCSBlogo from "../../assets/images/logo.png";
 
 function Navbar() {
   return (
@@ -9,7 +10,7 @@ function Navbar() {
         <div className="container-fluid">
           <Link to="/">
             <img
-              src="src/assets/images/logo.png"
+              src= {BCSBlogo}
               alt="BCSB Logo"
               className="navbar-brand"
               style={{ maxHeight: '70px', borderRadiun: 10 }} // Adjust the value as needed
@@ -64,16 +65,6 @@ function Navbar() {
                   <li>
                     <a className="dropdown-item" href="mailto:cazbella@myyahoo.com">
                       Email
-                    </a>
-                  </li>
-                  <hr className="dropdown-divider" />
-                  <li>
-                    <a
-                      className="dropdown-item"
-                      href="https://www.linkedin.com/in/caroline-lane-690b92264/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
-                      target="_blank"
-                    >
-                      LinkedIn
                     </a>
                   </li>
                   <li>
