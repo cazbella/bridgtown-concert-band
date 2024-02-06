@@ -26,6 +26,14 @@
     }
   }
 
-  
+  /* Adjust iframe size for smaller screens */
+@media (max-width: 768px) {
+  .carousel-item iframe {
+    width: 100%;
+    height: auto;
+    max-height: 400px; /* Adjust max-height as needed to fit within the viewport */
+  }
+}
+
   
   
