@@ -1,23 +1,33 @@
 .jumbotron-text {
-    justify-content: center;
-    
+  justify-content: center;
+
 }
 
 #h1 {
-    text-shadow: 2px 2px #ccae00;
-    font-size: 4vw;  /* Adjust the value based on your preference */
-  }
-  
-  .body {
-    font-size: 2vw !important;  /* Adjust the value based on your preference */
-  }
+  text-shadow: 2px 2px #ccae00;
+  font-size: 4vw;
+  /* Adjust the value based on your preference */
+}
 
-  .text-button {
-    background: linear-gradient(to right, #ca970a,  #e5da9a, #ca970a);
-    color: black;
+.body {
+  font-size: 3vw !important;
+  /* Adjust the value based on your preference */
+}
+
+@media (max-width: 767px) {
+  .body {
+    font-size: 4vw !important;
+    /* Adjust the value based on your preference */
   }
-  
-  /* Media queries for adjusting font sizes at specific breakpoints
+}
+
+.text-button {
+  background: linear-gradient(to right, #ca970a, #e5da9a, #ca970a);
+  color: black;
+  margin-top: 20px;
+}
+
+/* Media queries for adjusting font sizes at specific breakpoints
   @media (max-width: 768px) {
     #h1 {
       font-size: 7vw;

@@ -37,3 +37,11 @@
   background: linear-gradient(to right, #e3280b, #f1dbdb, #e3280b) !important;
   color: black;
 }
+
+@media (max-width: 767px) {
+  /* Apply styles only on screens smaller than 768 pixels wide */
+  .collapse {
+    /* Add your styles here to remove the border */
+    border: none !important; /* Use !important to ensure the style overrides any other conflicting styles */
+  }
+}

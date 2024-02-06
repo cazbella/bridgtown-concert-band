@@ -10,13 +10,12 @@ function Navbar() {
         <div className="container-fluid">
           <Link to="/">
             <img
-              src= {BCSBlogo}
+              src={BCSBlogo}
               alt="BCSB Logo"
               className="navbar-brand"
               style={{ maxHeight: '70px', borderRadiun: 10 }} // Adjust the value as needed
             />
-            <br>
-            </br>
+            <br />
           </Link>
           <button
             className="navbar-toggler"
@@ -51,7 +50,7 @@ function Navbar() {
                   Join Us
                 </Link>
               </li>
-              <li className="nav-item dropdown">
+              {/* <li className="nav-item dropdown">
                 <Link
                   className="nav-link dropdown-toggle"
                   to="#"
@@ -76,7 +75,7 @@ function Navbar() {
                     </a>
                   </li>
                 </ul>
-              </li>
+              </li> */}
             </ul>
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
