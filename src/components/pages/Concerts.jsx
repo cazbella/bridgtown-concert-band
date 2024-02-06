@@ -15,7 +15,7 @@ function Concerts() {
                 <h5 className="card-title">30th Anniversary Concert</h5>
                 <img
                   src= {showPoster}
-                  className="card-img-top"
+                  className="card-img-top show"
                   alt="Concert Image"
                 />
               </div>

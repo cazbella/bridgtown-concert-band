@@ -9,7 +9,9 @@ import tubaChris from "../../assets/images/live/tuba.jpeg";
 import sax from "../../assets/images/live/sax.jpeg";
 import bass from "../../assets/images/live/bass.jpeg";
 import flutes2 from "../../assets/images/live/flutes2.jpeg";
-import ghostBand from "../../assets/images/live/ghost-band.jpeg";
+// import ghostBand from "../../assets/images/live/ghost-band.jpeg";
+import bandBit from "../../assets/images/live/band-bit.jpg";
+import bandBit2 from "../../assets/images/live/band-bit2.jpg";
 
 function Media() {
   return (
@@ -23,7 +25,10 @@ function Media() {
                 <img src= {logo} className="d-block w-100" alt="Slide 1" />
               </div>
               <div className="carousel-item">
-                <img src= {fullBand} className="d-block w-100" alt="Slide 2" />
+                <img src= {bandBit} className="d-block w-100" alt="Slide 2" />
+              </div>
+              <div className="carousel-item">
+                <img src= {bandBit2} className="d-block w-100" alt="Slide 2" />
               </div>
               <div className="carousel-item">
                 <img src= {flutes} className="d-block w-100" alt="Slide 3" />
@@ -44,9 +49,6 @@ function Media() {
               <div className="carousel-item">
                 <img src= {flutes2} 
                 className="d-block w-100" alt="Slide 8" />
-              </div>
-              <div className="carousel-item">
-                <img src= {ghostBand} className="d-block w-100" alt="Slide 9" />
               </div>
               {/* Video slides */}
               {/* <div className="carousel-item">

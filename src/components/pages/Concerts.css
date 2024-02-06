@@ -10,11 +10,18 @@
     border: solid black 0.5px;
 }
 
-.card-img-top {
+.show {
     border: solid black 0.5px;
     max-width: 50%;
     margin: 0 auto; /* Add this line to center the image */
     display: block; /* Add this line to center the image */
+}
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 768px) {
+    .show {
+        max-width: 100%; /* Make it 100% width on smaller screens */
+    }
 }
 
 .poster-box {

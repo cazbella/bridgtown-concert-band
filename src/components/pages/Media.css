@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh; /* Use min-height instead of height */
+    margin-top: 20px;;
   }
   
   .carousel-inner {
@@ -15,4 +15,17 @@
     margin-left: auto;
     margin-right: auto;
   }
+  
+  @media (max-width: 768px) {
+    .carousel-control-prev,
+    .carousel-control-next {
+      position: static;
+      width: 100%;
+      text-align: center;
+      margin-top: 10px; /* Adjust as needed */
+    }
+  }
+
+  
+  
   
