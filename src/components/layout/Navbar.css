@@ -1,6 +1,6 @@
 .navbar-brand {
   border-right: 3px solid black !important;
-  padding-right: 20px;
+  padding-right: 5px;
 }
 
 .dropdown-item:focus,
