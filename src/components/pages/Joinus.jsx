@@ -21,7 +21,7 @@ function joinus() {
                   src= {joinUsPoster}
                   className="card-img-top clickable-image"
                   alt="Concert Image"
-                  onClick={handleModalShow}
+                  // onClick={handleModalShow}
                 />
               </div>
             </div>

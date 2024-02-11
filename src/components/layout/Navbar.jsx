@@ -42,7 +42,7 @@ function Navbar() {
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/media">
-                  Media
+                  Gallery
                 </Link>
               </li>
               <li className="nav-item">
